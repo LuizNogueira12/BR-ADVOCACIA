@@ -3,21 +3,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root{
-    font-1: 'Ubuntu', sans-serif;
+    --fonte-header: 'Ubuntu', sans-serif;
 }
 
 *{
 margin: 0px;
 padding: 0px;
+font-family: var(--fonte-header);
 }
-
-/*
-body{
-    height: 100%;
-}
-*/
 
 header{
     background-color: tomato;
-    height: 100px;
+    box-shadow: 0px 3px 10px
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    color: white;
+}
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0rem 1.5rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 400;
+}
+
+.login-button button{
+    border: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.login-button button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
 }
