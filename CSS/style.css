@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root{
+    font-1: 'Ubuntu', sans-serif;
+}
+
 *{
 margin: 0px;
 padding: 0px;
