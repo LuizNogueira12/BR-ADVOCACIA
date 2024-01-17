@@ -5,3 +5,13 @@ margin: 0px;
 padding: 0px;
 }
 
+/*
+body{
+    height: 100%;
+}
+*/
+
+header{
+    background-color: tomato;
+    height: 100px;
+}
