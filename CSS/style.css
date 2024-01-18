@@ -56,10 +56,10 @@ header{
 }
 
 .login-button button{
-    border: none;
-    background-color: white;
+    border: none;    
     padding: 10px 15px;
     border-radius: 7px;
+    background-color: white;
 }
 
 .login-button button a{
@@ -114,7 +114,7 @@ header{
 
     .mobile-menu .login-button{
         display: block;
-        padding: 1rem;
+        padding: 1rem 2rem;
     }
 
     .mobile-menu .login-button button{
