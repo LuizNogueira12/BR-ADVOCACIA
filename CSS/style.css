@@ -44,6 +44,14 @@ header{
     list-style: none;
 }
 
+/*
+.nav-list ul li::after{
+    content: "";
+    width: 100%;
+    height: 8px;
+    background-color: cornflowerblue;
+}
+*/
 .nav-item{
     margin: 0rem 1.5rem;
 }
